@@ -7,7 +7,7 @@ var car, wall,speed,weight,status;
 function setup() {
   createCanvas(800,400);
   
-  car = createSprite(45, 200, 80, 65);
+  car = createSprite(30, 200, 80, 65);
   wall = createSprite(785, 200, 30, 350);
   speed = Math.round(random(55,90));
   weight = Math.round(random(700,2000));
